@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  # RabbitMQ service
+  rabbitmq:
+    image: "rabbitmq:management"
+    container_name: rabbitmq
+    networks:
+      - sender
+      - recipient
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
+  # Micro-sender service
+  micro-sender:
+    build: ./sender-service
+    container_name: micro-sender
+    #    network_mode: "host"
+    networks:
+      - sender
+    depends_on:
+      - rabbitmq
+    environment:
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: 5672
+    ports:
+      - "8080:8080"
+      - "5005:5005"
+    command: >
+      java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 -jar /app/sender-service.jar
+
+
+    # Micro-recipient service
+  micro-recipient:
+    build: ./recipient-service
+    container_name: micro-recipient
+    networks:
+      - recipient
+      - collector
+    depends_on:
+      - rabbitmq
+    environment:
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: 5672
+    ports:
+      - "8081:8081"
+      - "5006:5006"
+    command: >
+      java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006 -jar /app/recipient-service.jar
+
+  micro-collector:
+    build: ./collector-service
+    container_name: micro-collector
+    networks:
+      - collector
+    depends_on:
+      - micro-recipient
+    ports:
+      - "8082:8082"
+      - "5007:5007"
+    environment:
+      MICRO_RECIPIENT_URL: http://micro-recipient:8081
+    command: >
+      java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5007 -jar /app/collector-service.jar
+
+
+networks:
+  sender:
+    driver: bridge
+  recipient:
+    driver: bridge
+  collector:
+    driver: bridge

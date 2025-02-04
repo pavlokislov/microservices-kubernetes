@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: recipient-service
+  rabbitmq:
+    port: 5672
+    host: rabbitmq
+    username: guest
+    password: guest
+    virtual-host: /
+
+server:
+  port: 8081
+
+recipient:
+  scheduler:
+    interval: 5

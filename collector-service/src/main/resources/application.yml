@@ -1,0 +1,15 @@
+spring:
+
+  application:
+    name: collector-service
+
+server:
+  port: 8082
+
+recipient:
+  api:
+    url: ${MICRO_RECIPIENT_URL:http://localhost:8081}
+  scheduler:
+    interval: 30
+
+
