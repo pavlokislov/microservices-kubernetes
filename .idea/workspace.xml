@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87793d4d-6000-4127-b78e-23af63ae2c5e" name="Changes" comment="Step 1-5">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collector-service/src/main/java/org/pkislov/collectorservice/controller/CollectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/prometheus/config/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+    <list default="true" id="87793d4d-6000-4127-b78e-23af63ae2c5e" name="Changes" comment="Step 6-10">
+      <change afterPath="$PROJECT_DIR$/deployment/grafana-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/micro-collector-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/micro-collector-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/micro-recipient-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/micro-recipient-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/micro-sender-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/micro-sender-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/postgress-deploement.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/prometheus-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/rabbitmq-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collector-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/collector-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recipient-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipient-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/recipient-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sender-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sender-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +122,9 @@
       <recent name="C:\Java projects\Microservices_Task_EPAM\collector-service\src\main\java\org\pkislov\collectorservice.dto" />
       <recent name="C:\Java projects\Microservices_Task_EPAM\collector-service" />
       <recent name="C:\Java projects\Microservices_Task_EPAM\collector-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java projects\Microservices_Task_EPAM\deplouyment" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,7 +344,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Step 1-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 1-5" />
+    <MESSAGE value="Step 6-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 6-10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
