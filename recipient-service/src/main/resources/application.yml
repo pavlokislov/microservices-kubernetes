@@ -14,3 +14,19 @@ server:
 recipient:
   scheduler:
     interval: 5
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - prometheus
+  endpoint:
+    metrics:
+      enabled: 'true'
+  server:
+    port: '8081'
+  prometheus:
+    metrics:
+      export:
+        enabled: 'true'

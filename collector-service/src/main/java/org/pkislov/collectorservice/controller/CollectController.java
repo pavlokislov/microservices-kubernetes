@@ -1,0 +1,1 @@
+package org.pkislov.collectorservice.controller;import org.springframework.web.bind.annotation.GetMapping;import org.springframework.web.bind.annotation.RestController;@RestControllerpublic class CollectController {    @GetMapping    public String get(){        return "Hello World";    }}

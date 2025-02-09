@@ -12,4 +12,18 @@ recipient:
   scheduler:
     interval: 30
 
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - prometheus
+  endpoint:
+    metrics:
+      enabled: 'true'
+  server:
+    port: '8082'
+  prometheus:
+    metrics:
+      export:
+        enabled: 'true'
