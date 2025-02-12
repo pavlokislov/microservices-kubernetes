@@ -4,37 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87793d4d-6000-4127-b78e-23af63ae2c5e" name="Changes" comment="Step 11-12">
-      <change afterPath="$PROJECT_DIR$/collector-service/src/main/java/org/pkislov/collectorservice/entity/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collector-service/src/main/java/org/pkislov/collectorservice/repository/MessageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/micro-visualizer-deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/micro-visualizer-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/postgres-deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/postgres-pvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/postgres-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualizer-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualizer-service/src/main/java/org/pkislov/visualizerservice/controller/VisualizerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualizer-service/src/main/java/org/pkislov/visualizerservice/dto/MessageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualizer-service/src/main/java/org/pkislov/visualizerservice/entity/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualizer-service/src/main/java/org/pkislov/visualizerservice/repository/MessageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualizer-service/src/main/java/org/pkislov/visualizerservice/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="87793d4d-6000-4127-b78e-23af63ae2c5e" name="Changes" comment="Step 13-15">
+      <change afterPath="$PROJECT_DIR$/deployment/micro-collector-blue-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/micro-collector-green-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collector-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector-service/src/main/java/org/pkislov/collectorservice/service/MessageCollectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/collector-service/src/main/java/org/pkislov/collectorservice/service/MessageCollectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/collector-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/prometheus/config/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/prometheus/config/prometheus.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/micro-collector-deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/micro-collector-deployment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/micro-collector-deployment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/micro-collector-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/micro-collector-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +341,8 @@
     <MESSAGE value="Step 1-5" />
     <MESSAGE value="Step 6-10" />
     <MESSAGE value="Step 11-12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 11-12" />
+    <MESSAGE value="Step 13-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 13-15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
