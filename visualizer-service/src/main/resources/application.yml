@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: visualizer-service
+  datasource:
+    username: ${POSTGRES_USER}
+    url: ${SPRING_DATASOURCE_URL}
+    password: ${POSTGRES_PASSWORD}
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+server:
+  port: 8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - prometheus
+  endpoint:
+    metrics:
+      enabled: 'true'
+  server:
+    port: '8083'
+  prometheus:
+    metrics:
+      export:
+        enabled: 'true'

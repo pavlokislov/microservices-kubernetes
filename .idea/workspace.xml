@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87793d4d-6000-4127-b78e-23af63ae2c5e" name="Changes" comment="Step 13-15">
-      <change afterPath="$PROJECT_DIR$/deployment/micro-collector-blue-deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/micro-collector-green-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/micro-collector-deployment.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/micro-collector-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/micro-collector-service.yml" afterDir="false" />
+    <list default="true" id="87793d4d-6000-4127-b78e-23af63ae2c5e" name="Changes" comment="Step 16">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sender-service/src/main/java/org/pkislov/senderservice/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sender-service/src/main/java/org/pkislov/senderservice/controller/NotificationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,14 +339,15 @@
     <MESSAGE value="Step 6-10" />
     <MESSAGE value="Step 11-12" />
     <MESSAGE value="Step 13-15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 13-15" />
+    <MESSAGE value="Step 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sender-service/src/main/java/org/pkislov/senderservice/controller/NotificationController.java</url>
-          <line>26</line>
+          <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
