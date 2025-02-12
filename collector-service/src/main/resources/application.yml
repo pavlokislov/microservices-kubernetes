@@ -20,7 +20,7 @@ recipient:
   api:
     url: ${MICRO_RECIPIENT_URL:http://localhost:8081}
   scheduler:
-    interval: 30
+    interval: 5
 
 management:
   endpoints:

@@ -1,1 +1,1 @@
-package org.pkislov.collectorservice.dto;import lombok.Data;@Datapublic class MessageDto {    private String user;    private String message;}
+package org.pkislov.collectorservice.dto;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@Data@NoArgsConstructor@AllArgsConstructorpublic class MessageDto {    private String user;    private String message;}
