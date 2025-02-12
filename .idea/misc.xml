@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/sender-service/pom.xml" />
         <option value="$PROJECT_DIR$/recipient-service/pom.xml" />
         <option value="$PROJECT_DIR$/collector-service/pom.xml" />
+        <option value="$PROJECT_DIR$/visualizer-service/pom.xml" />
       </list>
     </option>
   </component>

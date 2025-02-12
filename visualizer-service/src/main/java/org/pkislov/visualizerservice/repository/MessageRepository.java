@@ -1,0 +1,1 @@
+package org.pkislov.visualizerservice.repository;import org.pkislov.visualizerservice.entity.Message;import org.springframework.data.repository.CrudRepository;public interface MessageRepository extends CrudRepository<Message, Long> {}

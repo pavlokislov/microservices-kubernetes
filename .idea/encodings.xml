@@ -6,5 +6,7 @@
     <file url="file://$PROJECT_DIR$/sender-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/visualizer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/visualizer-service/src/main/java/org/pkislov/visualizerservice/resources" charset="UTF-8" />
   </component>
 </project>

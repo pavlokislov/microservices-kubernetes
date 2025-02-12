@@ -1,0 +1,1 @@
+package org.pkislov.collectorservice.repository;import org.pkislov.collectorservice.entity.Message;import org.springframework.data.repository.CrudRepository;public interface MessageRepository extends CrudRepository<Message, Long> {}

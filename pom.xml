@@ -26,6 +26,7 @@
         <module>sender-service</module>
         <module>collector-service</module>
         <module>recipient-service</module>
+        <module>visualizer-service</module>
     </modules>
 
     <dependencies>
